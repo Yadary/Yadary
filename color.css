@@ -1,0 +1,213 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+nav{
+  background: #0082e6;
+  height: 80px;
+  width: 100%;
+}
+label.logo{
+  color: black;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 40px;
+  font-family: 'Scheherazade New', serif;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 90px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: black;
+  font-size: 20px;
+  padding: 7px 13px;
+ 
+  text-transform: uppercase;
+}
+a.active,a:hover{
+  color: pink;
+  font-weight: bold;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: black;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 2000px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block; float: left;
+    padding-left: 10%;
+  }
+  ul{
+    position: fixed;
+    width: 30%;
+    height: 100vh;
+    background: white;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+
+  }
+  nav ul li{
+    display: block;
+
+    margin: 50px 0;
+    font-family: 'Scheherazade New', serif;
+    line-height: 50px;
+  }
+  nav ul li a{
+    font-size: 18px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+a.active,a:hover{
+  color: pink;
+  font-weight: bold;
+  transition: .5s;
+}
+.mio{display: inline; float: left; padding: 5px; width: 150px; height: 320px;  padding-top: 100px;  }
+
+.letra{display: inline; height: 420px; padding-right: 0px; }
+
+.logo{display: none;}
+div#about{ height: 335px;}
+
+}
+@media (max-width: 350px){
+  .mio{display: inline; float: left; padding: 5px; width: 150px; height: 320px;  padding-top: 100px;  }
+
+.letra{display: inline; height: 420px; padding-right: 0px; }
+
+.logo{display: none;}
+div#about{ height: 255px; background-color: red; width: 100%}
+ul li{font-size: 10px; width: 20%;}
+}
+
+
+
+
+
+
+
+nav{background-color: white; position: fixed;
+}
+
+.logo{  width: 350px;
+padding: 15px; margin-left: 90px; height: 88px;}
+
+.mio{width: 47%; height: auto;}
+
+body{background-color: blue;}
+
+h2 {display: inline; padding-top: : 100px; border:solid red;}
+
+img{display: inline; float: left; padding: 15px;  padding-top: 110px;}
+ 
+ #about{ background-color: #FFD9EF; width: 100%; height: 764px; }
+ .letra{ display: inline; padding-top: 28px;   width: 52%; padding-right: 0px; margin-right: 0px; height: auto;}
+
+ .cuadro{ background: linear-gradient(100deg, #160016 20%, black  40%, black 75%); width: 100%; height: 725px; }
+
+
+.acerca{color: white; padding-top: 80px;  padding-left: 50px; font-family: 'Merriweather', serif; font-size: 20px;}
+
+.yo2{ float: right; padding: 0; margin: 0; width: 610px; height: 725px; margin-left: 50px;}
+table{width: 45%; line-height:30px; margin-left: 10px;}
+
+.fotos{ background-image: url(https://i.pinimg.com/originals/81/70/a1/8170a185bc587113fdfbecf13964c6a8.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; width: 100%; height: 810px; }
+
+.mySlides {display:none; width: 600px; float: left; border-radius: 100%; margin-left: 40px;}
+.some{float: right; padding-top: 400px; margin-right: 200px; font-family: 'Fleur De Leah', cursive; font-size: 7em;}
+
+/*Volunteers*/
+
+.bg-image {
+
+  background-image: url("https://i.pinimg.com/originals/93/f7/55/93f755080823539e457d28a7dd2c43a6.jpg"); padding: 0px; width: 100%; height: 680px;  padding-top: 300px;
+  filter: blur(6px);
+  -webkit-filter: blur(8px);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.bg-text {
+
+  color: white;
+  font-weight: bold;
+  border: 3px solid #ffff;
+ position: absolute;
+  transform: translate(-50%, -50%);
+ text-align: center;
+ margin-left: 680px;
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.5); 
+top: 300px;
+padding-top: 30px;
+padding-right: 30px;
+padding-left: 30px;
+
+
+}
+#cuadro2{background: linear-gradient(100deg, #160016 20%, black  40%, black 75%); width: 100%; height: 225px; }
+
+.bg-2{
+    background-color: black; width: 100%; height: 180px; background: linear-gradient(to right, rgb(221, 94, 137), rgb(247, 187, 151));
+  }
+
+.t-stroke-shadow {
+    color: #e8858e;
+    text-shadow: -3px 3px #ffffff, -3px -3px #ffffff, 3px -3px #ffffff, 3px 3px #f3f3f2, 6px 6px #6ac7c2;
+    font-size: 100px;
+    text-align: center;
+
+}
+
+
+#volu{width: 100%; height: 1150px; background: linear-gradient(to right, rgb(221, 94, 137), rgb(247, 187, 151));}
+
+#fo{width: 100%; height: 725px; background-image: url(https://wallpapercave.com/wp/wp7661195.jpg);background-repeat: no-repeat; background-size: cover; background-attachment: fixed; }
+.videos{padding-top: 50px; display: inline; margin-left: 110px; }
+
+ /*responsive-part*/
+
+ 
+ 
+
+
